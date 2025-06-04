@@ -60,7 +60,7 @@ body {
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: url(images/wallpaper) no-repeat;
+    background: url(images/wallpaper1.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -111,14 +111,14 @@ body {
     align-items: center;
     width: 40px;
     height: 40px;
-    background: url(images/wallpaper) no-repeat;
-    border: 2px solid red;
+    background: url(images/wallpaper1.jpg) no-repeat;
+    border: 2px solid #0ef;
     border-radius: 50%;
     font-size: 20px;
     opacity: 0;
     animation: slideLeft 1s ease forwards;
     animation-delay: calc(.1s * var(--i));
-    color: red;
+    color: #0ef;
     text-decoration: none;
     transition: .5s ease;
     margin: 30px 15px 30px 0;
@@ -126,15 +126,15 @@ body {
 }
 
 .home-sci a:hover {
-    background: red;
+    background: #0ef;
     color: white;
-    box-shadow: 0 0 20px red;
+    box-shadow: 0 0 20px #0ef;
 }
 
 .btn-box {
     display: inline-block;
     padding: 12px 28px;
-    background: red;
+    background: #0ef;
     border-radius: 40px;
     font-size: 16px;
     color: white;
@@ -144,14 +144,14 @@ body {
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: 1s;
-    box-shadow: 0 0 5px red,
-        0 0 25px red
+    box-shadow: 0 0 5px #0ef,
+        0 0 25px #0ef
 }
 
 .btn-box:hover {
-    box-shadow: 0 0 5px red,
-        0 0 25px red, 0 0 50px red,
-        0 0 100px red, 0 0 200px red
+    box-shadow: 0 0 5px #0ef,
+        0 0 25px #0ef, 0 0 50px #0ef,
+        0 0 100px #0ef, 0 0 200px #0ef
 }
 
 .about {
@@ -161,7 +161,7 @@ body {
     flex-direction: column;
     gap: 2rem;
     padding-bottom: 6rem;
-    background: url('images/wallpaper') no-repeat;
+    background: url('images/wallpaper1.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -187,7 +187,7 @@ body {
 }
 
 .about-text h2 span {
-    color: red;
+    color: #0ef;
 }
 
 .about-text h4 {
@@ -208,9 +208,9 @@ body {
 #services {
     color: aliceblue;
     font-size: 20px;
-    line-height: 1.4;
+    line-height: 1.5;
     margin-bottom: 4rem;
-    background: url('images/wallpaper') no-repeat;
+    background: url('images/wallpaper1.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -226,7 +226,7 @@ body {
 }
 
 .sub-title span {
-    color: red;
+    color: #0ef;
 }
 
 .container {
@@ -243,12 +243,12 @@ body {
 .services-list div {
     background-color: transparent;
     padding: 40px;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 13px;
     border-radius: 20px;
     border-right: 10px;
     transition: background 0.5s, transform 0.5s;
-    box-shadow: 1px 1px 20px red,
+    box-shadow: 1px 1px 20px #0ef,
         1px 1px 40px pink
 }
 
@@ -262,6 +262,7 @@ body {
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 15px;
+    color: #0ef;
 }
 
 .services-list div a {
@@ -275,7 +276,7 @@ body {
 .read {
     display: inline-block;
     padding: 12px 20px;
-    background: rgb(255, 0, 0);
+    background: #0ef;
     border-radius: 40px;
     font-size: 16px;
     color: white;
@@ -285,11 +286,12 @@ body {
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: 1s;
-    box-shadow: 0 0 5px red,
-        0 0 25px red
+    box-shadow: 0 0 5px #0ef,
+        0 0 25px #0ef
 }
+
 .read:hover {
-  box-shadow: 0 0 5px red, 0 0 25px red, 0 0 50px red;
+    box-shadow: 0 0 5px #0ef, 0 0 25px #0ef, 0 0 50px #0ef;
 }
 
 
@@ -301,7 +303,7 @@ body {
 section {
     display: flex;
     flex-wrap: wrap;
-    background: url('images/wallpaper') no-repeat;
+    background: url('images/wallpaper1.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -354,7 +356,7 @@ section {
     border-radius: 10px;
     width: 100%;
     height: 5px;
-    background-color: rgb(203, 23, 23);
+    background-color: #0ef;
     animation: animate 1s cubic-bezier(1, 0, 0, 5, 1) forwards;
     transform: scaleX(0);
     transform-origin: left;
@@ -368,7 +370,7 @@ section {
 
 .Technical-bars .bar .progress-line span {
     height: 100%;
-    background-color: red;
+    background-color: #0ef;
     position: absolute;
     border-radius: 10px;
     animation: animate 1s 1s cubic-bezier(1, 0, 0, 5, 1) forwards;
@@ -395,7 +397,7 @@ section {
 .progress-line span::after {
     position: absolute;
     padding: 1px 8px;
-    background-color: red;
+    background-color: #0ef;
     color: #fff;
     font-size: 12px;
     border-radius: 3px;
@@ -429,7 +431,7 @@ section {
     border: 7px solid transparent;
     border-bottom-width: 0px;
     border-right-width: 0px;
-    border-top-color: rgb(192, 13, 13);
+    border-top-color: #0ef;
     top: -10px;
     right: 0;
     animation: showText 0.5s 1.5s linear forwards;
@@ -484,7 +486,7 @@ section {
 
 .path {
     stroke-width: 10;
-    stroke: red;
+    stroke: #0ef;
     fill: transparent;
     stroke-dasharray: 502;
     stroke-dashoffset: 502;
@@ -562,9 +564,9 @@ section {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 3rem;
-    padding-left: 30px;
-    margin-top: 130px;
-    background: url('images/wallpaper') no-repeat;
+    padding-left: 45px;
+    margin-top: 10px;
+    background: url('images/wallpaper1.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -579,7 +581,7 @@ section {
 }
 
 .contact-text h2 span {
-    color: red;
+    color: #0ef;
 }
 
 .contact-text h4 {
@@ -597,7 +599,7 @@ section {
 }
 
 .contact-list {
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 .contact-list li {
@@ -607,7 +609,7 @@ section {
 
 .contact-list i {
     display: inline-block;
-    color: red;
+    color: #0ef;
     font-size: 20px;
     font-weight: 600;
     transition: all .40s ease;
@@ -615,7 +617,7 @@ section {
 
 .contact-list li a:hover {
     transform: scale(1.01) translateY(-5px);
-    color: red;
+    color: #0ef;
 }
 
 .contact-icons i {
@@ -625,10 +627,10 @@ section {
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid red;
+    border: 2px solid #0ef;
     border-radius: 50%;
     font-size: 20px;
-    color: red;
+    color: #0ef;
     text-decoration: none;
     margin: 30px 15px 30px 0;
     transition: .5s ease;
@@ -638,9 +640,9 @@ section {
 }
 
 .contact-icons i:hover {
-    background: red;
+    background: #0ef;
     color: white;
-    box-shadow: 0 0 20px red;
+    box-shadow: 0 0 20px #0ef;
 }
 
 .contact-form form {
@@ -663,13 +665,13 @@ form textarea {
 
 .contact-form textarea {
     resize: none;
-    height: 220px;
+    height: 370px;
 }
 
 .contact-form form .send {
     display: inline-block;
     padding: 12px 20px;
-    background: red;
+    background: #0ef;
     border-radius: 40px;
     font-size: 16px;
     color: bisque;
@@ -680,15 +682,15 @@ form textarea {
     animation: slide;
     animation: slideTop 1s ease forwards;
     animation-delay: 1s;
-    box-shadow: 0 0 5px red,
-        0 0 25px red
+    box-shadow: 0 0 5px #0ef,
+        0 0 25px #0ef
 }
 
 
 .contact-form form .send:hover {
-    box-shadow: 0 0 5px red,
-        0 0 25px red, 0 0 50px red,
-        0 0 100px red, 0 0 200px red
+    box-shadow: 0 0 5px #0ef,
+        0 0 25px #0ef, 0 0 50px #0ef,
+        0 0 100px #0ef, 0 0 200px #0ef
 }
 
 
